@@ -29,7 +29,7 @@
         "name": "Egg"
       }
     ],
-    "users"; [
+    "users": [
       {
         "username": "john_doe",
         "email": "john@example.com",
