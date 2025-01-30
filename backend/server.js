@@ -84,6 +84,7 @@ app.post("/api/create_user", (req, res) => {
 app.post("/api/login", (req, res) => {
   const db = loadDatabase();
   const { username, password } = req.body;
+  window.location.href = "/dashboard";
 
   if (!username || !password) {
     return res.status(400).json({ error: "Missing required fields" });
