@@ -3,11 +3,13 @@
       {
         "recipe_id": 1,
         "product_list": [101, 102],
+        "description": "a recipe",
         "recipe": "x"
       },
       {
         "recipe_id": 2,
         "product_list": [103, 104],
+        "description": "a second recipe",
         "recipe": "y"
       }
     ],
